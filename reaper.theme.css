@@ -9,17 +9,18 @@
  * @BDEditor Clear Vision
 */
 
+@import url('https://fonts.googleapis.com/css2?family=playfair+display:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #2780e6;
-  --hover-color: #1e63b3;
-  --success-color: #43b581;
-  --danger-color: #982929;
+  --main-color: #C10000;
+  --hover-color: #7B0000;
+  --success-color: #005C31;
+  --danger-color: #7A0092;
   --url-color: var(--main-color);
   --undefined: 0;
   --background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/22/235248/55c985a056fb28e9804e33c77749f619-700.jpg');
-  --background-shading: 100%;
+  --background-shading: 39%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -59,14 +60,14 @@
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
+  --online-color: #FF7A00;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: gg sans;
+  --main-font: playfair display;
   --code-font: Consolas;
-  --channels-width: 220px;
+  --channels-width: 240px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
