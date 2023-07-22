@@ -19,7 +19,7 @@ IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS T
 :root{
 --mc: #cc1444 !important;                                   /*Main Colour*/     
 --hc: #770425 !important;                                   /*Hover Colour*/   
---BG: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/22/235248/55c985a056fb28e9804e33c77749f619-700.jpg') !important;    /*Wallpaper*/      
+--background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/22/235248/55c985a056fb28e9804e33c77749f619-700.jpg');
 --br: 50px !important;                                       /*RoundNess of Icons*/    
 --QT: #19191b ;                                             /*Quiet Theme Colour*/    
 --QTD: #121213;                                             /*Quiet Off Parts Colour*/   
