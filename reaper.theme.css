@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=playfair+display:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=consolas:wght@100;300;400;500;700&display=swap');
 @import url('https://raw.githubusercontent.com/TrveKvltWrath/reaper-discord/main/main.css');
 
 :root {
-  --main-color: #C10000;
-  --hover-color: #7B0000;
-  --success-color: #005C31;
-  --danger-color: #7A0092;
-  --url-color: var(--main-color);
+  --main-color: #D10000;
+  --hover-color: #9B00B5;
+  --success-color: #4E0000;
+  --danger-color: #CD7500;
+  --url-color: #8700D6;
   --undefined: 0;
   --background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/22/235248/55c985a056fb28e9804e33c77749f619-700.jpg');
-  --background-shading: 39%;
+  --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -20,8 +21,9 @@
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-position: center;
+  --background-overlay: rgb(0,0,0,0.6);
+  --user-popout-image: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/22/235248/55c985a056fb28e9804e33c77749f619-700.jpg');
+  --user-popout-position: center right;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
@@ -31,6 +33,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -41,19 +44,19 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-icon: url('https://www.wallpaperup.com/uploads/wallpapers/2014/01/22/235248/55c985a056fb28e9804e33c77749f619-700.jpg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: var(--main-color);
+  --channel-unread: #C30000;
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #FF7A00;
+  --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: playfair display;
-  --code-font: Consolas;
+  --main-font: New Rocker;
+  --code-font: consolas;
   --channels-width: 240px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
